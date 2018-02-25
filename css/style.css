@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(18, 45, 75);
+    background-image: url(../images/26102.jpg);
+}
+
+.display-3 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+.hero-top {
+    background: url("../images/jumbo.png") no-repeat center center;
+    background-size: cover;
+}
+
+.lead {
+    color: white;
+    font-size: 10px;
+}
+
+.content-box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    background-color: #ecf2f9;
+}
+
+.dark-transparency {
+    padding: 100px;
+    background-color: rgba(0, 0, 0, .55);
+}
+
+.row {
+    margin: 20px;
+}
+
+.col-md {
+    margin-left: 450px;
+}
+
+@media (max-width: 575px) {
+    .content-box {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
